@@ -1,0 +1,209 @@
+/* font-family: 'Gilda Display', serif;
+font-family: 'Libre Caslon Display', serif;
+
+font-family: 'DM Sans', sans-serif;  */
+
+@font-face {
+    font-family: 'Libre Caslon Display';
+    src: url('../fonts/libre-regular-webfont.eot');
+}
+
+.header{
+    width: 100%;
+    min-width: no5em;
+    background-color:whitesmoke;
+    
+    color: black;
+    padding: 1em 1em 1em 1em
+
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+
+
+
+}
+
+/* posiciono todos los selectores en escalera lo que hay desntro::before */
+.header .h1{
+    /* background: black;  subrayado nombre*/
+ 
+}
+.header .h1 .a{
+  
+}
+.header .nav{}
+.header .ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .li{
+    margin: 0 1em;
+}
+/* .header .li .a{} */
+
+.main{
+   
+    background: white;
+    
+    text-align: center;
+
+}
+.section{
+    width: 100%;
+    min-height: 50vh;
+    background-color: lightgray;
+    margin: 1em 0;
+    padding: 2em;
+
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center; 
+
+}
+.section.circulos{}
+.section .circulo{}
+.section .ul{
+    margin: 2em 0 0;
+    background: greenyellow;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section .ul .li{
+    background: orange;
+    margin: 0 1em;
+
+
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section .ul .a{
+    border-top: 2px solid rgba(0, 0, 0, 4);
+    padding: 2em 0 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+
+
+    
+}
+
+.section .h2{
+    font-family: var(--tipo-titular);
+    font-size: 5em;
+    font-weight: 200;
+}
+.section .h3{
+    font-family: var(--tipo-titular);
+    font-size: 3em;
+    
+}
+.section .p{}
+.section .grid{
+    width: 95%;
+    max-width: 42em;
+    background: whitesmoke;
+    margin: 1em 0;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (10rem, 1fr));
+    gap: 1em;
+
+
+}
+.section .article{
+   
+
+    width: 100%;
+    min-height: 20vh;
+    /* background: blue;
+    background: red;  */
+    margin: 0 1em;
+    
+
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    /* position: relative; */
+}
+.section .a{}
+.section .figure{
+    width: 100%;    
+    /* background: pink; */
+}
+.section .img{
+
+    width: 100%;
+    
+    /* background: blueviolet;  */
+
+}
+.section .h4{
+    width: 100%;
+    height: 50%;
+    background: rgba(176, 226, 230, 0.444)247, 198, 150)240, 186, 132);
+    /* position:absolute; */
+    buttom:0;
+    left:0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.about{}
+.about .h2{
+    margin:0 0 1rem ;
+}
+.about .p{
+    background: white ;
+    margin:0 0 1rem ;
+    text-align:left;
+}
+.about .redes{
+    width: 100%;
+    background: black;
+    margin:0 0 1rem ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.about .li{
+    
+    background: lightgreen;
+    margin: 0 1em;
+
+    
+
+}
+.about .a{}
+.about .svg{
+    width: 2em;
+    height: 2em;
+    /* background: gold */
+
+}
+.footer{
+    background: black;
+    padding: 2em 0;
+    text-align:center;
+
+}
+.footeer .span{}
